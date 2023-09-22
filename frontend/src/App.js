@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
 
 function App() {
   const [message, setMessage] = useState('Ops');
@@ -14,17 +17,21 @@ useEffect(() => {
     .then((data) => setMessage(data.message))
     .catch((error) => {
       console.error(error);
+      setMessage(error)
       // Trate o erro aqui (por exemplo, exiba uma mensagem de erro na interface do usuário)
     });
 }, []);
 
-  return (
+return (
     <div className="App">
-      <header className="App-header">
-        <h1>{message}</h1>
-      </header>
+      <Header />
+      <main>
+        <Home />
+      </main>
+      <Footer />
     </div>
   );
+
 }
 
 export default App;
