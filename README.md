@@ -1,3 +1,2 @@
 # estela-maris
-
-To start the project build the Docker images with ```docker-compose build ``` ```  and run docker-compose up```
+To start the app run: ```docker-compose build && docker-compose up```
