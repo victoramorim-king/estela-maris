@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
+    <footer className='main-footer'>
       <p>&copy; 2023 Estela Maris. Todos os direitos reservados.</p>
     </footer>
   );

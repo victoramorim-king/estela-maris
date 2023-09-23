@@ -3,7 +3,6 @@
 @import 'variables';
 @import 'menus';
 
-
 .main-header{
   @include flex-center;
   background-color: $primary-color;
@@ -12,6 +11,14 @@
   font-family: $font-family;
 }
 
+.main-footer{
+  @include flex-center;
+  background-color: $primary-color;
+  color: $secondary-text-color;
+  width: 100%;
+  height: $footer-height;
+  font-family: $font-family;
+}
 
 
 
