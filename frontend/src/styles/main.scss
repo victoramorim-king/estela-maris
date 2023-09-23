@@ -1,0 +1,21 @@
+@import 'mixins';
+@import 'reset';
+@import 'variables';
+@import 'menus';
+
+
+.main-header{
+  @include flex-center;
+  background-color: $primary-color;
+  width: 100%;
+  height: $header-height;
+  font-family: $font-family;
+}
+
+
+
+
+
+
+
+

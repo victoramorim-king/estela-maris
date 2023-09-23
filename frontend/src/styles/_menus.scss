@@ -1,0 +1,28 @@
+.main-menu {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    padding: 10px 20px; 
+    color: white;
+    font-weight: bold;
+    transition: color 0.2s; 
+  }
+
+  .nav-link:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+}
