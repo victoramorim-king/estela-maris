@@ -1,7 +1,11 @@
+@import 'buttons';
+@import 'links';
 @import 'mixins';
 @import 'reset';
 @import 'variables';
 @import 'menus';
+@import 'popups';
+
 
 .main-header{
   @include flex-center;
@@ -9,6 +13,23 @@
   width: 100%;
   height: $header-height;
   font-family: $font-family;
+}
+
+.page-container{
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
+  padding: 30px 10%;
+}
+
+.list-container{
+  .list-item{
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #3434343f;
+    border-radius: 17px;
+    box-shadow: 0px 0px 35px 15px #22222213;
+
+  }
+
 }
 
 .main-footer{
