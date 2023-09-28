@@ -1,0 +1,20 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+
+$primary-text-color: #333;
+$secondary-text-color: white;
+
+$link-color: $primary-color;
+$link-visited-color: $secondary-color;
+$link-hover-color: darken($primary-color, 10%);
+
+$font-family: helvetica, sans-serif;
+$font-size-base: 16px;
+
+$spacing-unit: 8px;
+$header-height: 125px;
+$footer-height: 125px;
